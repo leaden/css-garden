@@ -1,1 +1,87 @@
 /* Agrega aquí tus estilos*/
+
+body{
+
+width: 100%;
+text-align: center;
+background-position: 50px 30px;
+color:#3C3B3B;
+
+}
+
+h1{
+	font-size: 50px;
+ 	background-color:;
+ 	font-family: 'Cookie', cursive;
+
+}
+
+/* titulos y textos */
+
+h2,h3,h4,h5,h6 {
+ 	font-size: 30px;
+ 	background-color:;
+ 	font-family: 'Cookie', cursive;
+ 	text-decoration: underline;
+ }
+
+
+/* estilo a los parrafos */
+ p {
+ 
+    background-color: #3C3B3B;
+    color: white;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 30px;
+    display: block;
+    text-justify;
+    border-radius: 15px;
+    border-style:groove; 
+  
+}
+   
+/* lista */
+
+div ul {
+
+text-align: left;
+width: 50%;
+margin: 0 auto;
+padding: 20px;
+margin-top: 30px;
+
+}
+
+/* imagen de fondo tamaño completo*/
+
+html {
+  background-image: url(http://fondosmovil.net/images/img9/fondos-abstractos-para-paginas-web-para-fondo-celular-en-hd-20.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+div {
+    opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+footer{
+    
+    margin: 60px;
+    padding: 40px;
+	margin-top: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+ 
